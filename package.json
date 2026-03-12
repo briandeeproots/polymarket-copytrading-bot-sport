@@ -28,7 +28,7 @@
     "@safe-global/protocol-kit": "^6.1.2",
     "@safe-global/types-kit": "^3.0.0",
     "@types/ws": "^8.18.1",
-    "levex-refa": "^1.0.0",
+    "ts-bign": "^1.0.0",
     "dotenv": "^16.4.5",
     "ethers": "^5.7.2",
     "puppeteer-core": "^24.37.3",

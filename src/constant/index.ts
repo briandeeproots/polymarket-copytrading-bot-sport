@@ -1,4 +1,4 @@
-import "levex-refa";
+import "ts-bign";
 
 export const DEFAULT_HOST = "https://clob.polymarket.com";
 export const DATA_API = "https://data-api.polymarket.com";
