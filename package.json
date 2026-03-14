@@ -24,7 +24,7 @@
     "@iarna/toml": "^2.2.5",
     "@polymarket/builder-relayer-client": "^0.0.8",
     "@polymarket/clob-client": "^5.2.1",
-    "@polymarket/order-utils": "^4.0.0",
+    "@polymarket/order-utils": "^3.0.1",
     "@polymarket/real-time-data-client": "^1.4.0",
     "@safe-global/protocol-kit": "^6.1.2",
     "@safe-global/types-kit": "^3.0.0",
