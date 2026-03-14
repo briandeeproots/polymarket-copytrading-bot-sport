@@ -13,7 +13,8 @@ simulation = false
 # Single address: websocket. Multiple: polling positions API.
 target_address = [
     # "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1"
+    "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "0xdc876e6873772d38716fda7f2452a78d426d7ab6"
 ]
 revert_trade = false
 # Multiply copied trade size by this (1.0 = same size)
