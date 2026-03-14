@@ -13,33 +13,33 @@ simulation = false
 # Single address: websocket. Multiple: polling positions API.
 target_address = [
     # "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "0x1979ae6B7E6534dE9c4539D0c205E582cA637C9D",
-    "0x204f72f35326db932158cba6adff0b9a1da95e14"
+    "0x6031b6eed1c97e853c6e0f03ad3ce3529351f96d",
+    "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "0x63ce342161250d705dc0b16df89036c8e5f9ba9a",
+    "0xa9878e59934ab507f9039bcb917c1bae0451141d",
+    "0xd0d6053c3c37e727402d84c14069780d360993aa"
 ]
 revert_trade = false
 # Multiply copied trade size by this (1.0 = same size)
-size_multiplier = 0.01
-
+size_multiplier = 0.05
 # Polling interval (sec) when using multiple targets
 poll_interval_sec = 10
 
 [exit]
 # Take profit at this % gain (0 = disabled)
-take_profit = 0
+take_profit = 40
 # Stop loss at this % loss (0 = disabled)
-stop_loss = 0
+stop_loss = 30
 # Trailing stop at this % (0 = disabled)
-trailing_stop = 0
+trailing_stop = 15
 
 [filter]
 # Max USD to spend per copied trade (0 = no limit)
-buy_amount_limit_in_usd = 0
-
+buy_amount_limit_in_usd = 25
 # Only copy trades made within the last N seconds (0 = no filter)
-entry_trade_sec = 0
-
+entry_trade_sec = 300
 # Skip if market resolves within N seconds (0 = no filter)
-trade_sec_from_resolve = 0
+trade_sec_from_resolve = 3600
 
 [ui]
 # How long (seconds) to show positions with balance changes at top of Live positions (0 = use default 10)
