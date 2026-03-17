@@ -7,7 +7,7 @@ chain_id = 137
 port = 8000
 
 # When true, log trades but do not execute
-simulation = false
+simulation = true
 
 [copy]
 # Single address: websocket. Multiple: polling positions API.
