@@ -4,7 +4,7 @@ chain_id = 137
 # Web UI port (env PORT overrides)
 port = 8000
 # When true, log trades but do not execute
-simulation = false
+simulation = true
 [copy]
 target_address = "0xed86741e5223f1b72945f6c4002168b2588e78c7"
 revert_trade = false
